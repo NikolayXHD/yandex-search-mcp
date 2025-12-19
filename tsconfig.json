@@ -10,8 +10,8 @@
     "forceConsistentCasingInFileNames": true,
     "outDir": "./build",
     "rootDir": "./src",
-    "allowImportingTsExtensions": true,
-    "noEmit": true,
+    "noEmit": false,
+    "declaration": true,
     "lib": ["ES2022", "DOM"],
     "paths": {
       "@modelcontextprotocol/sdk/*": ["node_modules/@modelcontextprotocol/sdk/dist/esm/server/*"]

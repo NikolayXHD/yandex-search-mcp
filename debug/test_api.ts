@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-import { yandexSearchApi } from '../src/yandex_search_api.ts';
+import { yandexSearchApi } from '../src/yandex_search_api.js';
 
 (async () => {
   try {
